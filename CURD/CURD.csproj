@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Employee\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Employee\" />
+  </ItemGroup>
 </Project>
