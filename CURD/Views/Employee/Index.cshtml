@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Employee>    
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Here is the list of Employees</h2>
+<table style="width:50%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Sex</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Employee emp in Model)
+            {
+                <tr>
+                    <td>@emp.Name</td>
+                    <td>@emp.Age</td>
+                    <td>@emp.Salary</td>
+                    <td>@emp.Department</td>
+                    <td>@emp.Sex</td>
+                </tr>
+            }
+    </tbody>
+</table>
