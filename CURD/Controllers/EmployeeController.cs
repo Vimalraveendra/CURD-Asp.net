@@ -14,7 +14,7 @@ namespace CURD.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View();
+            return View(Repository.AllEmployees);
         }
 
         // HTTP GET VERSION
