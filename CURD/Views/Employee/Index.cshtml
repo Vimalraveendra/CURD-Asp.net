@@ -17,13 +17,14 @@
     <tbody>
         @foreach(Employee emp in Model)
             {
-                <tr>
-                    <td>@emp.Name</td>
-                    <td>@emp.Age</td>
-                    <td>@emp.Salary</td>
-                    <td>@emp.Department</td>
-                    <td>@emp.Sex</td>
-                </tr>
+        <tr>
+            <td>@emp.Name</td>
+            <td>@emp.Age</td>
+            <td>@emp.Salary</td>
+            <td>@emp.Department</td>
+            <td>@emp.Sex</td>
+            <td><a asp-action="Update" asp-route-empname="@emp.Name">Update</a></td>
+        </tr>
             }
     </tbody>
 </table>
