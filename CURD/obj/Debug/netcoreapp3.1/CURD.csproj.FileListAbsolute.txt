@@ -37,3 +37,4 @@
 /Users/vimalraveendran/Desktop/ASP.netCore/CURD/CURD/obj/Debug/netcoreapp3.1/Razor/Views/Employee/Create.cshtml.g.cs
 /Users/vimalraveendran/Desktop/ASP.netCore/CURD/CURD/obj/Debug/netcoreapp3.1/Razor/Views/Employee/Thanks.cshtml.g.cs
 /Users/vimalraveendran/Desktop/ASP.netCore/CURD/CURD/obj/Debug/netcoreapp3.1/Razor/Views/Employee/Index.cshtml.g.cs
+/Users/vimalraveendran/Desktop/ASP.netCore/CURD/CURD/obj/Debug/netcoreapp3.1/Razor/Views/Employee/Update.cshtml.g.cs
