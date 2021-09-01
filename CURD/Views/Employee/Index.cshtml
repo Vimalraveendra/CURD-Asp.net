@@ -24,6 +24,11 @@
             <td>@emp.Department</td>
             <td>@emp.Sex</td>
             <td><a asp-action="Update" asp-route-empname="@emp.Name">Update</a></td>
+            <td>
+                <form asp-route-empname="@emp.Name" asp-action="Delete" method="post">
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
         </tr>
             }
     </tbody>
