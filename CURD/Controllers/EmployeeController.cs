@@ -48,5 +48,14 @@ namespace CURD.Controllers
 
             return RedirectToAction("Index");
         }
+
+
+        [HttpPost]
+        public IActionResult Delete(string empname)
+        {
+            Employee employee = Repository.AllEmployees.Where(e => e.Name == empname).FirstOrDefault();
+            Repository.Delete(employee);
+            return RedirectToAction("Index");
+        }
     }
 }

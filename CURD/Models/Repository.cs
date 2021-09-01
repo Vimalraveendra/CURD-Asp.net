@@ -16,5 +16,10 @@ namespace CURD.Models
         {
             allEmployees.Add(employee);
         }
+        public static void Delete(Employee employee)
+        {
+            allEmployees.Remove(employee);
+        }
+
     }
 }
